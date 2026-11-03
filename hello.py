@@ -9,4 +9,4 @@ data = {
 df = pd.DataFrame(data)
 print(df)
 print()
-print("Average value:", df["value"].mean())
+print("Average value:", round(df["value"].mean(), 2))
